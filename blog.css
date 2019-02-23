@@ -61,13 +61,15 @@ button {
 
 input {
     height: 30px;
-    background-color: azure;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 textarea {
     height: 100px;
     width: 400px;
-    background-color: azure;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 .image1 {
