@@ -1,0 +1,46 @@
+<html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="blog.css">
+    <title>My Blog</title>
+</head>
+
+<body>
+    <div class="header">My Blog</div>
+    <div class="new_post">Add New Post
+        <div class="text">Title</div>
+        <input>
+        <div class="text">Content</div>
+        <textarea ></textarea><br> <!-- Make it wrapping word!!! -->
+        <button type="submit">Post</button>
+    </div>
+    <div class="posts">Posts
+        <div class="old_posts"></div>
+    </div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCzp5AG9Q4scfs2UY6FFJPbO2BFrH9WqbY",
+    authDomain: "my-blog-b22f4.firebaseapp.com",
+    databaseURL: "https://my-blog-b22f4.firebaseio.com",
+    projectId: "my-blog-b22f4",
+    storageBucket: "my-blog-b22f4.appspot.com",
+    messagingSenderId: "908146801450"
+  };
+  firebase.initializeApp(config);
+  database = firebase.database(); // NOT SURE about this one! // 
+</script>
+
+<!-- Javascript + JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.header {
+    background: black;
+    color: white;
+    font-style: bold;
+    font-size: 40px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.new_post {
+    color: black;
+    background-color: lightgrey;
+    font-style: bold;
+    font-size: 30px;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+button {
+    color: white;
+    background: black;
+    font-style: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.posts {
+    color: black;
+    background-color: grey;
+    font-style: bold;
+    font-size: 30px;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.old_posts {
+    color: black;
+    background-color: grey;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
