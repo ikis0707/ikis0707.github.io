@@ -1,25 +1,31 @@
 .header {
-    background: black;
+    background: blue;
     color: white;
     font-style: bold;
-    font-size: 40px;
-    height: 80px;
+    font-size: 60px;
+    height: 100px;
     padding-top: 10px;
     padding-left: 50px;
 }
 
+.sub-header {
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 60px;
+}
+
 .new_post {
-    color: black;
-    background-color: lightgrey;
+    color: white;
+    background-image: url(https://cdn.beach-inspector.com/static/awards/lp-header.jpg?w=1200&h=400&fit=crop);
+    background-size: cover;
     font-style: bold;
     font-size: 30px;
-    border: 2px solid;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .text {
-    color: black;
+    color: white;
     font-size: 20px;
     padding-top: 20px;
     padding-left: 30px;
@@ -27,28 +33,46 @@
 
 button {
     color: white;
-    background: black;
+    background-color: blue;
     font-style: bold;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .posts {
-    color: black;
-    background-color: grey;
+    color: blue;
+    background-color: azure;
     font-style: bold;
     font-size: 30px;
-    border: 2px solid;
     padding-top: 10px;
     padding-left: 10px;
 }
 
 .old_posts {
-    color: black;
-    background-color: grey;
+    color: blue;
     font-style: italic;
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    background-color: azure;
+}
+
+textarea {
+    height: 100px;
+    width: 400px;
+    background-color: azure;
+}
+
+.image1 {
+    background-image: url(https://img.flytap.com/cities/nice.jpg);
+    background-position: right bottom;
+    background-size: 300px;
+    background-repeat: no-repeat;
 }

@@ -2,7 +2,7 @@ database.ref("Posts").once('value').then(data => {
     let savedPosts = data.val();
     console.log(savedPosts);
     Object.values(savedPosts).forEach(data => {
-        $(".old_posts").append(`<br>${data.postTitle} - ${data.postContent}`);
+    $(".old_posts").append(`<b>${data.postTitle}</b><br><br>${data.postContent}<br><br><br>`);
     });
 });
 
