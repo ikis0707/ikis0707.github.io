@@ -16,6 +16,8 @@ $("button").on('click', (event) => {
         let dataToSave = { postTitle: title, postContent: content };
         console.log(dataToSave);
         database.ref("Posts").push(dataToSave);
+        $("input").val(null);
+        $("textarea").val(null);
     }
     else {
         window.alert("Please add title and content too!")
