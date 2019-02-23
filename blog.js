@@ -12,7 +12,7 @@ $("button").on('click', (event) => {
     console.log(title)
     console.log(content)
     if (title != "" && content != "") {
-        $(".old_posts").append(`<b>${data.postTitle}</b><br>${data.postContent}<br><br>`)
+        $(".old_posts").append(`<b>${title}</b><br>${content}<br><br>`)
         let dataToSave = { postTitle: title, postContent: content };
         console.log(dataToSave);
         database.ref("Posts").push(dataToSave);
